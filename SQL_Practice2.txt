@@ -1,5 +1,5 @@
 ﻿CREATE TABLE CUSTOMERS(CustomerID integer PRIMARY KEY, 	CustomerName text,  City text, PostalCode integer, Country text,OrderQuantity integer);
-
+extra line
 INSERT INTO CUSTOMERS VALUES(1,'Alfreds Futterkiste', 'Berlin',	'12209',	'Germany','2');
 INSERT INTO CUSTOMERS VALUES(2,'Ana Trujillo', 'Mexico','05021','Mexico','45');
 INSERT INTO CUSTOMERS VALUES(3,'Antonio Moreno','Mexico','05023','Mexico', '1' );
