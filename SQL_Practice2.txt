@@ -10,7 +10,7 @@ INSERT INTO CUSTOMERS VALUES(7,'Suprêmes délices','Charleroi',	'6000',	'Belgiu
 INSERT INTO CUSTOMERS VALUES(8,'The Big Cheese','Portland','97201','USA',17);
 INSERT INTO CUSTOMERS VALUES(9,'The Cracker Box','Butte',	'59801','USA',25);
 INSERT INTO CUSTOMERS VALUES(10,'Toms Spezialitäten','Münster',	'44087','Germany',5);
-COMMIT;
+[[[[[[]]]]]]]]]]]]]]
 SELECT AVG(OrderQuantity)
 FROM CUSTOMERS;
 SELECT SUM(OrderQuantity)
