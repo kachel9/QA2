@@ -26,11 +26,31 @@ public class HomeTask4 {
         i = ++i + ++i;
         System.out.println(i);
         /* 4. Напишите программу, которая берет любую строку и меняет ее, сортируя слова в обратном порядке. Например, “я хочу есть” → “есть хочу я”*/
-        String str ="я хочу есть";
-        String reverse = new StringBuffer(str).reverse().toString();
-        System.out.println("\nПервоначальная строка: "+str);
-        System.out.println("Перевернутая Cтрока: "+reverse);
+
+        String str = "я хочу есть";
+        String[] arrayStr = str.split("\\s");
+        String first;
+        String last;
+        int numb = arrayStr.length;
+        System.out.print(str);
+        first = arrayStr[0];
+        last = arrayStr[numb - 1];
+
+        for(int i1=0; i1<=numb; i1++) {
+            if(i1 == 0) {
+                arrayStr[0] = last;
+            }
+            if(i1 == numb) {
+                arrayStr[numb-1] = first;
+            }
+        }
+        System.out.println();
+
+        for(int i1=0; i1 < numb; i1++) {
+            System.out.print(arrayStr[i1] + " ");
+        }
+    }
 
     }
-}
+
 
