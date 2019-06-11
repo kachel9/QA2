@@ -1,6 +1,6 @@
 package hometask8;
 
-class Triangle extends Figures {
+class Triangle extends Figures implements Shape,FigureParam{
     private double a1;
     private double b1;
     private double c1;
@@ -18,11 +18,17 @@ class Triangle extends Figures {
         return "This is a Triangle";
     }
   @Override
-  public double getArea(){
+  public double getSquare(){
         return w*h;
   }
     @Override
-    public double getPerim(){
+    public double getPerimeter(){
         return (a1+b1+c1);
+    }
+    @Override
+    public void measure() {
+    }
+    @Override
+    public void figWam(){
     }
 }
