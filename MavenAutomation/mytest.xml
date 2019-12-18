@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTests" verbose="1" >
+    <test name="Smoke"   >
+        <packages>
+            <package name="lesson2" />
+            <package name="lesson3" />
+        </packages>
+    </test>
+    <test name="CV9"   >
+        <packages>
+            <package name="lesson2" />
+            <package name="lesson3" />
+        </packages>
+    </test>
+    <test name="CV10"   >
+        <packages>
+            <package name="lesson1" />
+            <package name="lesson3" />
+        </packages>
+    </test>
+</suite>
